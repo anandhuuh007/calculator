@@ -1,0 +1,122 @@
+/* Reset and base styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #f5f5f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+.main-body {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding-top: 30px;
+  height: 100%;
+}
+
+/* Calculator container */
+.calc {
+  width: 400px;
+  max-width: 100%;
+  height: auto;
+  background: grey;
+  padding: 30px 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+/* Display screen */
+#screen {
+  width: 100%;
+  height: 55px;
+  font-size: 26px;
+  padding: 10px;
+  background: lightgoldenrodyellow;
+  border: 4px solid lightslategrey;
+  pointer-events: none;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}
+
+/* Buttons section */
+.buttons {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Row of buttons */
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Individual button */
+.button {
+  flex: 1;
+  height: 60px;
+  margin: 6px;
+  background: bisque;
+  border: 3px solid #999;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+}
+
+/* Footer text */
+.about {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .main-body {
+    padding-top: 20px;
+    align-items: center;
+  }
+
+  .calc {
+    width: 100vw;
+    height: 100vh;
+    padding: 25px 15px;
+    border-radius: 0;
+  }
+
+  #screen {
+    height: 50px;
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+
+  .button {
+    width: 22%;
+    height: 55px;
+    font-size: 18px;
+    margin: 6px 1%;
+  }
+
+  .row {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .about {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+}
+
