@@ -13,3 +13,9 @@ function answer()
     document.getElementById("screen").value=result
 
 }
+
+function backspace() {
+    let screen = document.getElementById("screen");
+    screen.value = screen.value.slice(0, -1);
+}
+
