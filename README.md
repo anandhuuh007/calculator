@@ -13,10 +13,15 @@ https://anandhuuh007.github.io/calculator/
 ⚡ Features
 
 ✅ Perform basic arithmetic (➕ addition, ➖ subtraction, ✖️ multiplication, ➗ division)
+
 ✅ Clear (C) and Delete (⌫) functions
+
 ✅ Responsive design – works on desktop, tablet, and mobile
+
 ✅ Keyboard support (use number keys and Enter/Backspace)
+
 ✅ Stylish UI with smooth hover & click effects
+
 
 
 Calculator UI
