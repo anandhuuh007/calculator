@@ -5,10 +5,11 @@ This project demonstrates fundamental concepts of DOM manipulation, event handli
 
 It performs basic arithmetic operations with a modern, intuitive interface.
 
-**🌟 Demo**
 
+**🌟 Demo**
 👉 Live Demo
 https://anandhuuh007.github.io/calculator/
+
 
 ⚡ Features
 
@@ -21,6 +22,7 @@ https://anandhuuh007.github.io/calculator/
 ✅ Keyboard support (use number keys and Enter/Backspace)
 
 ✅ Stylish UI with smooth hover & click effects
+
 
 
 
