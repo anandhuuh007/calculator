@@ -8,7 +8,7 @@ It performs basic arithmetic operations with a modern, intuitive interface.
 **🌟 Demo**
 
 👉 Live Demo
- 
+https://anandhuuh007.github.io/calculator/
 
 ⚡ Features
 
@@ -18,9 +18,6 @@ It performs basic arithmetic operations with a modern, intuitive interface.
 ✅ Keyboard support (use number keys and Enter/Backspace)
 ✅ Stylish UI with smooth hover & click effects
 
-📸 Screenshots
-
-(Replace with actual images from your project)
 
 Calculator UI
 
